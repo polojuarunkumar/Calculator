@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="Calculator.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="container">
+        <input type="text" class="display" readonly>
+        <div class="buttons">
+            <button class="symbols">AC</button>
+            <button class="symbols">DEL</button>
+            <button class="symbols" onclick="prt_val('%')">%</button>
+            <button class="symbols" onclick="prt_val('/')">/</button>
+            <button onclick="prt_val(7)">7</button>
+            <button onclick="prt_val(8)">8</button>
+            <button onclick="prt_val(9)">9</button>
+            <button class="symbols" onclick="prt_val('*')">*</button>
+            <button onclick="prt_val(4)">4</button>
+            <button onclick="prt_val(5)">5</button>
+            <button onclick="prt_val(6)">6</button>
+            <button class="symbols" onclick="prt_val('-')">-</button>
+            <button onclick="prt_val(1)">1</button>
+            <button onclick="prt_val(2)">2</button>
+            <button onclick="prt_val(3)">3</button>
+            <button class="symbols" onclick="prt_val('+')">+</button>
+            <button onclick="prt_val(0)">0</button>
+            <button onclick="prt_val('00')">00</button>
+            <button onclick="prt_val('.')">.</button>
+            <button class="symbols">=</button>
+        </div>
+    </div>
+    <script src="Calculator.js"></script>
+</body>
+</html>
